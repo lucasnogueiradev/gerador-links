@@ -1,17 +1,14 @@
-import Cards from "../Cards";
 import Contato from "../Contato";
+import { Disparos } from "../Disparos";
 import Footer from "../footer";
 import Menu from "../Menu";
 import { Mobile } from "../Mobile";
+import { Planos } from "../Planos";
 import { Slider } from "../Slider";
 import { Sobre } from "../Sobre";
-import { ContainerC } from "./styles";
-import { ModalContato } from "../Modal";
-import { RoutesR } from "../Routes";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { Video } from "../Video";
-import { Planos } from "../Planos";
-import { Disparos } from "../Disparos";
+import { VideoIns } from "../VideoIns";
+import { ContainerC } from "./styles";
 
 export const Content = () => {
   return (
@@ -22,7 +19,9 @@ export const Content = () => {
       <Mobile />
       <Disparos />
       <Video />
+      <VideoIns />
       <Planos />
+
       <Sobre />
 
       <Contato />

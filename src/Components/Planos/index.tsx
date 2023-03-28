@@ -1,6 +1,7 @@
 import { Button } from "react-bootstrap";
-import { Container } from "./Styles";
+import { AiOutlineFacebook, AiOutlineInstagram } from "react-icons/ai";
 
+import { Container } from "./Styles";
 export const Planos = () => {
   return (
     <Container>
@@ -15,10 +16,17 @@ export const Planos = () => {
               R$ 249,00<sup className="sub">/mês</sup>
             </h4>
             <div className="descricao">
-              <h5 style={{ color: "green" }}>✔ Envios ilimitados</h5>
+              <h5 style={{ color: "#00d351" }}>
+                <span style={{ color: "#00d351" }}>✔</span> Envios ilimitados
+              </h5>
 
-              <h5>✔ Suporte humano.</h5>
-              <h5>✔ Documentação completa.</h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Suporte humano.
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Documentação
+                completa.
+              </h5>
             </div>
             <p>Ideal para integração!</p>
             <span className="link-text">
@@ -36,7 +44,7 @@ export const Planos = () => {
                   borderRadius: "2rem",
                   fontWeight: "500",
                 }}
-                href="https://wa.me/message/WJARCUA44KE2L1"
+                href="https://wa.me/5511975196926?text=Ol%C3%A1%2C+gostaria+de+contratar+API.+"
               >
                 Contratar
                 <svg
@@ -62,12 +70,26 @@ export const Planos = () => {
               R$ 199,00<sup className="sub">/mês</sup>
             </h4>
             <div className="descricao">
-              <h5 style={{ color: "green" }}>✔ Envios ilimitados</h5>
-              <h5>✔ Envios de qualquer mídias.</h5>
-              <h5>✔ Envios em grupos.</h5>
-              <h5>✔ Exportar contatos.</h5>
-              <h5>✔ Exportar numeros não salvo.</h5>
-              <h5>✔ Envio de Texto</h5>
+              <h5 style={{ color: "#00d351" }}>
+                <span style={{ color: "#00d351" }}>✔</span> Envios ilimitados
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Envios de qualquer
+                mídias.
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Envios em grupos.
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Exportar contatos.
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Exportar numeros não
+                salvo.
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Envio de Texto
+              </h5>
             </div>
             <p>Ideal para dispora em massa!</p>
             <span className="link-text">
@@ -81,11 +103,10 @@ export const Planos = () => {
                   transition: "all 0.5s",
                   alignItems: "center",
                   margin: "auto",
-
                   borderRadius: "2rem",
                   fontWeight: "500",
                 }}
-                href="https://wa.me/message/WJARCUA44KE2L1"
+                href="https://wa.me/5511975196926?text=Ol%C3%A1%2C+gostaria+de+contratar+disparo+em+massa."
               >
                 Contratar
                 <svg
@@ -107,16 +128,52 @@ export const Planos = () => {
           </div>
           <div className="data-card">
             <h3>BOT ATENDIMENTO</h3>
+            <span
+              style={{
+                fontSize: "13px",
+                color: "#ccc",
+                marginBottom: "-10px",
+                marginLeft: "35px",
+              }}
+            >
+              A partir de
+            </span>
             <h4>
-              R$ 189,99<sup className="sub">/mês</sup>
+              R$ 99,99<sup className="sub">/mês</sup>
             </h4>
-            <div className="descricao">
-              <h5>✔ Incluso botões e lista</h5>
-              <h5>✔ Atendimento completo</h5>
-              <h5>✔ Suporte e edição do bot</h5>
-              <h5>✔ Envio de qualquer mídia</h5>
-              <h5>✔ Bot completo de vendas</h5>
-              <h5>✔ Incluso consultar API externar</h5>
+
+            <div className="descricao" style={{ marginTop: "-10px" }}>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Incluso botões e
+                lista
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Atendimento completo
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Suporte e edição do
+                bot
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Envio de qualquer
+                mídia
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Bot completo de
+                vendas
+              </h5>
+              <h5>
+                <span style={{ color: "#00d351" }}>✔</span> Incluso consultar
+                API externar
+              </h5>
+              <h5 style={{ color: "#f73485" }}>
+                <AiOutlineInstagram style={{ color: "#D82D70" }} /> Integração
+                com Instagram
+              </h5>
+              <h5 style={{ color: "#0980E5" }}>
+                <AiOutlineFacebook style={{ color: "#0980E5" }} /> Integração
+                com Facebook
+              </h5>
             </div>
             <p>Ideal para ecommerce!</p>
             <span className="link-text">
@@ -134,7 +191,7 @@ export const Planos = () => {
                   borderRadius: "2rem",
                   fontWeight: "500",
                 }}
-                href="https://wa.me/message/WJARCUA44KE2L1"
+                href="https://wa.me/5511975196926?text=Ol%C3%A1%2C+gostaria+de+contratar+bot+de+atendimeto.+"
               >
                 Contratar
                 <svg

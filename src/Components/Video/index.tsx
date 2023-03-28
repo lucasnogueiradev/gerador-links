@@ -1,3 +1,4 @@
+import { BsWhatsapp } from "react-icons/bs";
 import { Container } from "./styles";
 
 export const Video = () => {
@@ -25,11 +26,15 @@ export const Video = () => {
           </figure>
 
           <div className="titulo-bot">
-            <h3>Bot de atendimento para restaurante</h3>
+            <h3>
+              Bot de atendimento para WhatsApp <BsWhatsapp />
+            </h3>
           </div>
         </div>
         <div className="text-video">
-          <h3 className="h3-titulo" >Bot de atendimento </h3>
+          <h3 className="h3-titulo">
+            Bot de atendimento para WhatsApp <BsWhatsapp />
+          </h3>
           <p>
             Quanto tempo você dedica respondendo cada um dos seus clientes no
             whatsapp?

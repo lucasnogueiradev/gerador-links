@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin-bottom: 3rem;
+  margin-bottom: -3rem;
   background-image: linear-gradient(90deg, #836fff, #4169e1, #1e90ff);
 
   .titulo-bot {
@@ -36,7 +36,7 @@ export const Container = styled.div`
 
   .text-video {
     width: 30%;
-   margin-left: 6rem;
+    margin-left: 6rem;
     margin-top: -0.2rem;
     p {
       font-size: 1.3rem;

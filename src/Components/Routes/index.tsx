@@ -1,13 +1,10 @@
-import { ModalContato } from "../Modal";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Contato from "../Contato";
-import Cards from "../Cards";
+import { Route, Routes } from "react-router-dom";
+import { GeradorLinks } from "../../pages/GeradorLinks";
 
 export const RoutesR = () => {
   return (
     <Routes>
-      <Route path="/cards" element={<Cards />} />
-      <Route path="/cards1" element={<Cards />} />
+      <Route path="/gerar-link-whatsapp" element={<GeradorLinks />} />
     </Routes>
   );
 };

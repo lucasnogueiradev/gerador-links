@@ -1,9 +1,8 @@
+import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import React, { useState } from "react";
-import { display } from "@mui/system";
+import { Link } from "react-router-dom";
 
 function Menu() {
   const [text, setText] = useState(
@@ -15,7 +14,7 @@ function Menu() {
     </a>
   );
 
-  const styled ={
+  const styled = {
     alignItems: "center",
     display: "flex",
     color: "#fff",
@@ -25,11 +24,11 @@ function Menu() {
 
   return (
     <Navbar expand="lg" >
-      <Container className="container-menu" style={{styled}}>
+      <Container className="container-menu" style={{ styled }}>
         <Navbar.Brand href="#home">
           <div className="logo-bot" style={styled}>
             <img src="IMG_3583.png" width={50} alt="logo" />
-            <p style={{marginTop: "10px", fontSize:"18px", fontFamily: "Poppins"}}>Otimize</p>
+            <p style={{ marginTop: "10px", fontSize: "18px", fontFamily: "Poppins" }}>Otimize</p>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -38,6 +37,9 @@ function Menu() {
           className="navbar-collapse collapse"
         >
           <Nav className="me-auto">
+            <Link className="home" to="gerar-link-whatsapp">
+              Gerar link para Whatsapp
+            </Link>
             <Nav.Link href="#home" className="home">
               Home
             </Nav.Link>
@@ -59,8 +61,8 @@ function Menu() {
                 borderRadius: "6px",
                 alignItems: "center",
                 marginTop: "4px",
-              paddingTop: "3px",
-              
+                paddingTop: "3px",
+
               }}
             >
               Login

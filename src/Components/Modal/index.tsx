@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import { Alert } from "@mui/material";
+import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
+import { ColorRing } from "react-loader-spinner";
 import api from "../Api";
 import { Container } from "./styles";
-import { Alert } from "@mui/material";
-import { ColorRing } from "react-loader-spinner";
-import axios from "axios";
 
 export function ModalContato(props: any) {
   const [show, setShow] = useState(false);
@@ -40,7 +39,6 @@ export function ModalContato(props: any) {
           },
         }
       )
-
       .then((response) => {
         console.log(response.data);
         setAlertContent(response.data.result);
@@ -48,13 +46,10 @@ export function ModalContato(props: any) {
       })
       .catch((err) => {
         console.log(err);
-
         setAlerterr(true);
       });
-
     setLoading(false);
   }
-
   return (
     <Container className="container-modal">
       {alertt ? (
@@ -115,7 +110,6 @@ export function ModalContato(props: any) {
                 value={number}
               />
             </Form.Group>
-           
           </Form>
         </Modal.Body>
         <Modal.Footer>

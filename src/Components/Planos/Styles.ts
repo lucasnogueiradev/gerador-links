@@ -8,7 +8,7 @@ export const Container = styled.div`
   margin: 1rem auto;
   box-shadow: 0 1.5em 2.5em -0.5em rgba(#000000, 0.7);
   #planos {
-    margin-bottom: -3rem;
+    margin-bottom: -1rem;
     color: #646464;
 
     transition: all 0.5s;
@@ -106,7 +106,7 @@ export const Container = styled.div`
     }
 
     h4 {
-      color: #ff6100;
+      color: #00d351;
       padding-top: 0.7rem;
       text-transform: uppercase;
       font-size: 2em;
