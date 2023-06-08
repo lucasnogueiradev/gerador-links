@@ -3,17 +3,18 @@ import copy from "copy-to-clipboard";
 import { useState } from "react";
 import { TbCopy } from "react-icons/tb";
 import { Link } from "react-router-dom";
-import { toast, ToastContainer } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
 import Footer from "../../Components/footer";
-import { Video } from "../../Components/Video";
+import ReactWhatsapp from "./lib/ReactWhatsapp";
 import { Container } from "./styles";
 
 export const GeradorLinks = () => {
   const [copyText, setCopyText] = useState("");
   const [number, setNumber] = useState("");
   const [message, setMessage] = useState("");
-
+  const [link, setLink] = useState(false);
   function handleSuccess() {
     toast.success("Copiado!");
   }
@@ -26,6 +27,8 @@ export const GeradorLinks = () => {
     handleSuccess();
   };
   var url = `https://wa.me/55${number}?text=${message}`;
+
+
 
   return (
     <Container>
@@ -55,7 +58,7 @@ export const GeradorLinks = () => {
           </div>
           <div className="url">
             <input
-              value={url}
+              
               onChange={handleCopyText}
               className="copy"
             ></input>
@@ -72,7 +75,16 @@ export const GeradorLinks = () => {
           </Button>
         </Link>
       </div>
-      <Video />
+
+      <ReactWhatsapp
+        number={number}
+        message={message}
+        element={undefined}
+        onClick={undefined}
+      >
+        Open Whatsapp
+      </ReactWhatsapp>
+
       <Footer />
     </Container>
   );

@@ -15,15 +15,12 @@ export const Content = () => {
     <ContainerC>
       <Menu />
       <Slider />
-
       <Mobile />
       <Disparos />
       <Video />
       <VideoIns />
       <Planos />
-
       <Sobre />
-
       <Contato />
       <Footer />
     </ContainerC>

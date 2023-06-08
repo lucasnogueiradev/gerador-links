@@ -1,8 +1,6 @@
-
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import { Container, CardContent } from "./styles";
-
+import { CardContent, Container } from "./styles";
 
 function Cards() {
   return (
@@ -35,8 +33,7 @@ function Cards() {
               <Button
                 variant="primary"
                 className="card-button"
-                // onClick={props.Submit}
-              >
+                >
                 Saber mais
               </Button>
             </a>
@@ -68,10 +65,10 @@ function Cards() {
               <Button
                 variant="primary"
                 className="card-button"
-                // onClick={props.Submit}
+                
               >
                 Saber mais
-                                </Button>
+              </Button>
             </a>
           </Card.Body>
         </Card>
@@ -99,7 +96,7 @@ function Cards() {
               <Button
                 variant="primary"
                 className="card-button"
-                // onClick={props.Submit}
+                
               >
                 Saber mais
               </Button>
@@ -130,7 +127,7 @@ function Cards() {
               <Button
                 variant="primary"
                 className="card-button"
-                // onClick={props.Submit}
+                
               >
                 Saber mais
               </Button>

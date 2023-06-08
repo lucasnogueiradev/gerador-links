@@ -1,10 +1,8 @@
-import { Container } from "./styles";
-import { TbSend } from "react-icons/tb";
-import { BsImages } from "react-icons/bs";
-import { BsFiletypePdf } from "react-icons/bs";
 import { AiOutlineLink } from "react-icons/ai";
-import { BsWhatsapp } from "react-icons/bs";
+import { BsFiletypePdf, BsImages, BsWhatsapp } from "react-icons/bs";
 import { IoMdContacts } from "react-icons/io";
+import { TbSend } from "react-icons/tb";
+import { Container } from "./styles";
 
 export const Disparos = () => {
   return (
@@ -19,7 +17,6 @@ export const Disparos = () => {
             contatos até aqueles que não estão salvos e muitos mais.
           </p>
         </div>
-
         <div className="content">
           <div className="cards">
             <span className="titulo-card">

@@ -4,6 +4,7 @@ import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 import { Content } from "./Components/Content/index";
 import { GeradorLinks } from "./pages/GeradorLinks";
+import CadastroSignIn from "./pages/Signin";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Route path="/" element={<Content />} />
         </Routes>
         <Routes>
-          <Route path="/gerar-link-whatsapp" element={<GeradorLinks />} />
+          <Route path="/gerar-link-whatsapp" element={<CadastroSignIn />} />
         </Routes>
       </div>
     </BrowserRouter>

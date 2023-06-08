@@ -2,7 +2,9 @@ html {
   font-size: 62, 4%;
   background: #f3f4f5;
 }
-
+.toastModal {
+  z-index: 999999999999;
+}
 /* Logo menu */
 .logo-bot span {
   color: #3a3a3a;
@@ -266,7 +268,7 @@ hr {
 /* 
 modal */
 .modal-dialog {
-  top: 10%;
+  top: 20%;
 }
 .text-modal-mensagem {
   font-family: "Poppins", sans-serif;
@@ -281,19 +283,39 @@ modal */
 .container-modal {
   border: 10px solid #000;
   z-index: 999;
-
   position: absolute;
 }
-.placeholder-modal {
+
+.select-input {
+  margin-top: 2rem;
+  font-family: "Poppins", sans-serif;
   color: #646464;
   width: 80%;
   justify-content: center;
   margin: auto;
-  padding: 0.6rem;
+  height: 3rem;
   border-radius: 0.8rem;
-  font-family: "Poppins", sans-serif;
-  border: 2px solid #46454581;
+
 }
+.label-select{
+  margin-bottom: 1rem;
+  color: #646464;
+  font-family: "Poppins", sans-serif;
+  margin-left: 3rem;
+}
+.placeholder-modal {
+margin-top: 3rem;
+  font-family: "Poppins", sans-serif;
+  color: #646464;
+  width: 100%;
+  margin-bottom: 3rem;
+  justify-content: center;
+
+  height: 4.5rem;
+  border-radius: 0.8rem;
+
+}
+
 .placeholder-modal::placeholder {
   color: #ccc;
 
@@ -452,7 +474,7 @@ modal */
   font-family: "Poppins", sans-serif;
   color: #646464;
   margin-bottom: -1rem;
-  margin-top: 1rem;
+
 
   margin-left: 4rem;
 }

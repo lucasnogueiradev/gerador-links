@@ -9,6 +9,11 @@ export const Container = styled.div`
   z-index: 99;
 
   position: absolute;
+
+.select-input{
+  width: 90%;
+}
+
   .title-modal {
     font-family: "Poppins", sans-serif;
     color: #646464;
@@ -30,12 +35,19 @@ export const Container = styled.div`
 
   @media (max-width: 999px) {
     .alert {
-      top: -34rem;
+      top: -28rem;
       right: 1rem;
     }
 
 
     
   }
- 
+
+`;
+export const FormInput = styled.div`
+
+width: 80%;
+align-items: center;
+margin: auto;
+gap: 2rem;
 `;
