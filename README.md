@@ -11,7 +11,7 @@ O projeto utiliza React para criar uma interface interativa e responsiva. Ele of
 - Uso de componentes React para modularidade e reutilização de código
 
 ## Demonstração
-Você pode visualizar a aplicação em [Acessar site](https://gerador-de-link.netlify.app/) (substitua pelo link real).
+Você pode visualizar a aplicação em [Acessar site](https://gerador-de-link.netlify.app/).
 
 ## Instalação
 Para rodar o projeto localmente, siga estes passos:
