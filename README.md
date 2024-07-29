@@ -19,5 +19,5 @@ Para rodar o projeto localmente, siga estes passos:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/usuario/gerador-links.git
-![image](https://github.com/user-attachments/assets/c5fd0fab-456d-4d9b-971c-72cb6ba69d03)
 ![image](https://github.com/user-attachments/assets/202f4ca3-ee48-4246-b111-5e9ee6a3680b)
+img src="https://github.com/user-attachments/assets/c5fd0fab-456d-4d9b-971c-72cb6ba69d03" alt="Descrição da Imagem" width="300"/>
